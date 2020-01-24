@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    var ageUser = prompt(`Введите Ваш возраст`, ``);
+    var age = ageUser % 10;
+    if (age >= 2 && age <= 4) {
+      var years = `года`;
+      alert(`Вам ${ageUser} ${years}.`);
+    } else if (ageUser == 11) {
+      var years = `лет`;
+      alert(`Вам ${ageUser} ${years}.`);
+    } else if (ageUser === 1 || age === 1) {
+      var years = `год`;
+      alert(`Вам ${ageUser} ${years}.`);
+    } else {
+      var years = `лет`;
+      alert(`Вам ${ageUser} ${years}.`);
+    }
+  </script>
+</body>
+
+</html>
